@@ -15,6 +15,7 @@ function TaskList({
           .filter((task) => (hideCompleted ? task.status !== true : true))
           .map((task) => (
             <TaskItem
+              key={task.id}
               task={task}
               setTaskStatus={setTaskStatus}
               removeTask={removeTask}
