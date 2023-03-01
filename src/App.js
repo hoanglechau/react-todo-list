@@ -7,7 +7,7 @@ import TaskList from "./components/TaskList";
 function App() {
   const [tasks, setTasks] = React.useState([
     {
-      id: "task_1",
+      id: 1,
       title: "Learn ReactJS",
       status: false,
     },
